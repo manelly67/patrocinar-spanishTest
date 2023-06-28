@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Publicidad acerca de patrocinar test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+  body {
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  }
+  
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  .bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  }
+  .container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  }
+  .navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #DE003A;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.blanco {
+ color: #ffffff;
+}
+
+.blue {
+ color: blue;
+ font-size: 20px;
+}
+
+#panel {
+  width: 230px;
+  font-size: 25px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 5px;
+  position: fixed;
+  bottom: 40%;
+  right: 35%;
+  width: 300px;
+  display: none;
+}
+  </style> 
+</head>
+
+<body>
+
+<script>
+function myFunction() {
+  document.getElementById("panel").style.display = "block";
+}
+function myFunction1() {
+  document.getElementById("panel").style.display = "none";
+}
+</script>
+
+<div id="panel">
+  <p>alumnoespanyol@gmail.com</p>
+</div>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img src="1.jpg" alt="image" width="150px">
+      <!-- <a class="navbar-brand" href="#">Me</a> -->
+    </div>
+    
+	<a class="nav navbar-nav navbar-right blanco" href="pub8d.jpg">¿Quiénes somos?</a>
+	<!--
+	<div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+	-->
+  </div>
+</nav>
+
+
+<div class="container-fluid bg-1 text-center">
+<h3 class="margin">¿Qué obtengo al patrocinar un test?</h3>
+<img src="pub8a.jpg" class="img-responsive margin" style="display:inline" alt="image" width="850" height="550">
+<h3>Al hacer <i>submit</i> los datos de contacto del profesor patrocinante se muestran resaltados</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">¿Qué tengo que hacer para patrocinar un test?</h3>
+  <p>Puedes escoger entre patrocinar un test o grupo de test diseñados por Dictado Espresso, o puedes diseñar un test 
+  con las preguntas y respuestas de tu preferencia</p>
+  <a href="#" class="btn btn-default btn-lg" onmouseover="myFunction()" onmouseout="myFunction1()"> <span class="glyphicon glyphicon-envelope"></span> Escríbenos</a>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">¿Cómo diseño mi propio test?</h3>
+  <p>Envíanos tu test a este correo electrónico, <span class="blue">alumnoespanyol@gmail.com</span> en Dictado Espresso lo publicaremos online, sigue las pautas siguientes
+  </p>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Cada pregunta debe tener tres opciones, con una sola opción correcta</p>
+      <img src="pub8b.jpg" class="img-responsive margin" style="width:100%" width="250" height="250" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Cada test puede tener hasta un máximo de 9 preguntas</p>
+      <img src="pub8c.jpg" class="img-responsive margin" style="width:100%" width="250" height="250" alt="Image">
+	  <a class="" href="https://dictadoespresso.netlify.app/" target="blank">visítanos en https://dictadoespresso.netlify.app/</a>
+    </div>
+    <div class="col-sm-4">
+      <p>Una vez te notifiquemos que el test está aprobado, es cuando puedes hacer el pago, de acuerdo al plan solicitado</p>
+      <img src="pub8e.jpg" class="img-responsive margin" style="width:100%" width="250" height="250" alt="Image">
+	  <p>Nos reservamos el derecho de aprobar previamente los test a publicar.</p>
+    </div>
+  </div>
+</div>
+</body>
+<footer class="container-fluid bg-4 text-center">
+  <p>DICTado Espresso <a href="https://dictadoespresso.netlify.app/#/contacto">https://dictadoespresso.netlify.app/#/contacto</a></p>
+</footer>
+</html>
